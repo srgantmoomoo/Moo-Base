@@ -8,6 +8,7 @@ The purpose of this project is for me to learn more about coding in a minecraft/
 - settings system
 - mixins
 - events
+- basic ui modules
 - click gui
 # Credits
 ZeroMemes Alpine 1.5 Event System - https://github.com/ZeroMemes/Alpine. <br />
