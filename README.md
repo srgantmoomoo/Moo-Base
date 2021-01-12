@@ -2,7 +2,7 @@
 This is a simple client base for clients on minecraft forge 1.12.2. <br />
 You may use this in any project of your own, it would be appreciated if you were to credit me, and please respect the liscence. <br />
 <br />
-The purpose of this project is for me to learn more about coding in a minecraft/forge enviorment. Everything here will be custom coded aside from the event system because alpine based. Also, this may be helpful to others as the only other bases atm seem to be outdated or just unfinished, although I recommend coding your own base. The only refrenced libraries will be Alpine 1.5 and Spongepowered for mixins. <br />
+The purpose of this project is for me to learn more about coding in a minecraft/forge enviorment. Everything here will be custom coded aside from the event system because alpine based. Also, this may be helpful to others as a lot of other bases atm are either outdated or just unfinished, although I recommend coding your own base. The only refrenced libraries will be Alpine 1.5 for events, and Spongepowered for mixins. <br />
 # Road Map 
 - module system
 - settings system
@@ -10,6 +10,19 @@ The purpose of this project is for me to learn more about coding in a minecraft/
 - events
 - basic ui modules
 - click gui
+# Information
+This client is built on Forge 1.12.2-14.23.5.2768, Minecraft 1.12.2, and Alpine 1.5. <br />
+**How To Use** <br />
+1. You can start by downloading the latest release .zip file of BasedBase. <br />
+2. Next you can make your own folder and drag all of the BasedBase assets from the .zip folder into your new one. <br />
+3. For these next steps you should know how to build in your own ide, I have instructions for Eclipse and IntelliJ listed below if needed. <br />
+
+*Eclipse* <br />
+- Open up your command prompt and enter in your directory. <br />
+- You can build by typing `gradlew setupDecompWorkspace` (can take a few minutes), and then `gradlew eclipse`. <br />
+
+*IntelliJ*
+- idk lol <br />
 # Credits
 ZeroMemes Alpine 1.5 Event System - https://github.com/ZeroMemes/Alpine. <br />
 SpongeForge Mixins- https://www.spongepowered.org. <br />
