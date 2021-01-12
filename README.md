@@ -23,6 +23,7 @@ This client is built on Forge 1.12.2-14.23.5.2768, Minecraft 1.12.2, and Alpine 
 
 *IntelliJ*
 - idk lol <br />
+
 **How To Use** <br />
 1. <br />
 # Credits
