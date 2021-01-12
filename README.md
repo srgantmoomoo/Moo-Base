@@ -29,4 +29,5 @@ This client is built on Forge 1.12.2-14.23.5.2768, Minecraft 1.12.2, and Alpine 
 # Credits
 ZeroMemes Alpine 1.5 Event System - https://github.com/ZeroMemes/Alpine. <br />
 SpongeForge Mixins- https://www.spongepowered.org. <br />
+Forge 1.12.2 Mod API - http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html. <br />
 Resources im using as reference to help me with the clickgui - olliem5's Past 1.6, HeroCode's HeroGUI, ionar2's salhack, bassically every open source client.
