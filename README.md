@@ -12,7 +12,7 @@ The purpose of this project is for me to learn more about coding in a minecraft/
 - click gui
 # Information
 This client is built on Forge 1.12.2-14.23.5.2768, Minecraft 1.12.2, and Alpine 1.5. <br />
-**How To Use** <br />
+**How To Setup** <br />
 1. You can start by downloading the latest release .zip file of Moo Base. <br />
 2. Next you can make your own folder and drag all of the Moo Base assets from the .zip folder into your new one. <br />
 3. For these next steps you should know how to build in your own ide, I have instructions for Eclipse and IntelliJ listed below if needed. <br />
@@ -23,7 +23,9 @@ This client is built on Forge 1.12.2-14.23.5.2768, Minecraft 1.12.2, and Alpine 
 
 *IntelliJ*
 - idk lol <br />
+**How To Use** <br />
+1. <br />
 # Credits
 ZeroMemes Alpine 1.5 Event System - https://github.com/ZeroMemes/Alpine. <br />
 SpongeForge Mixins- https://www.spongepowered.org. <br />
-Resources im using to help me with clickgui - olliem5's Past 1.6, HeroCode's HeroGUI, ionar2's salhack.
+Resources im using as reference to help me with the clickgui - olliem5's Past 1.6, HeroCode's HeroGUI, ionar2's salhack, bassically every open source client.
