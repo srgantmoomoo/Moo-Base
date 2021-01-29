@@ -23,9 +23,9 @@ public class Main {
 	public static final String acceptedVersions = "[1.12.2]";
 	public static final String clientProxyClass = "me.srgantmoomoo.moobase.api.proxy.ClientProxy";
 	public static final String commonProxyClass = "me.srgantmoomoo.moobase.api.proxy.CommonProxy";
-	
+
 	public static final Logger log = LogManager.getLogger("Moo Base");
-	// zero alpine --- public static final EventBus EVENT_BUS = new EventManager();
+	public static final EventBus EVENT_BUS = new EventManager();
 	
 	public static ModuleManager moduleManager;
 	public static SettingManager settingManager;

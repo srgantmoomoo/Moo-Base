@@ -60,13 +60,13 @@ public class Module {
 	
 	protected void onEnable() {
 		MinecraftForge.EVENT_BUS.register(this);
-		Main.EVENT_BUS.subscribe(this);
+		//Main.EVENT_BUS.subscribe(this);
 		enable();
 	}
 
 	protected void onDisable() {
 		MinecraftForge.EVENT_BUS.register(this);
-		Main.EVENT_BUS.subscribe(this);
+		//Main.EVENT_BUS.subscribe(this);
 		disable();
 	}
 	
@@ -82,9 +82,9 @@ public class Module {
 			this.onDisable();
 		}
 		
-		if(Main.saveLoad != null) {
-			Main.saveLoad.save
-		}
+		//if(Main.saveLoad != null) {
+			//Main.saveLoad.save;
+		//}
 	}
 	
 	public void toggle() {
@@ -95,9 +95,9 @@ public class Module {
 		}else {
 			this.onDisable();
 		}
-		if(Main.saveLoad != null) {
-			Main.saveLoad.save();
-		}
+		//if(Main.saveLoad != null) {
+			//Main.saveLoad.save();
+		//}
 	}
 	
 	public int getkey() {
@@ -107,8 +107,8 @@ public class Module {
 	public void setKey(int key) {
 		this.keyCode.code = key;
 		
-		if(Main.saveLoad != null) {
-			Main.saveLoad.save
-		}
+		//if(Main.saveLoad != null) {
+			//Main.saveLoad.save
+		//}
 	}
 }
