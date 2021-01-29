@@ -20,11 +20,15 @@ This client is built on Forge 1.12.2-14.23.5.2768, Minecraft 1.12.2, and Alpine 
 3. For these next steps you should know how to build in your own ide, I have instructions for Eclipse and IntelliJ listed below if needed. <br />
 
 *Eclipse* <br />
-- Open up your command prompt and enter in your directory. <br />
-- You can build by typing `gradlew setupDecompWorkspace` (can take a few minutes), and then `gradlew eclipse`. <br />
+- Open up your command prompt and enter in your Moo Base directory. <br />
+- Type `gradlew setupDecompWorkspace` (can take a few minutes), and then `gradlew eclipse`. <br />
+- Import it into eclipse.
 
 *IntelliJ*
-- idk lol <br />
+- Open up your command prompt and enter in your Moo Base directory. <br />
+- Type `gradlew setupDecompWorkspace`.
+- Import the project into IntelliJ.
+- Go back to your command prompt and type `gradlew genIntelliJRuns`.
 
 **How To Use** <br />
 1. idk yet... <br />
