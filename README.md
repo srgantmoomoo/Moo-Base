@@ -5,7 +5,7 @@ You may use this in any project of your own, it would be appreciated if you were
 The purpose of this project is for me to learn more about coding in a minecraft/forge enviorment. Everything here will be custom coded aside from the event system because alpine based. Also, this may be helpful to others, although I recommend coding your own base, a lot of other bases atm are either outdated or just unfinished, the goal is to make this as simple and easy to use as possible while still hitting on things mixins, events, and a clickGui. The only refrenced libraries will be Alpine 1.5 for events, and Spongepowered for mixins. <br />
 # Road Map 
 ✔ module system <br />
-- settings system <br />
+✔ settings system <br />
 - command system <br />
 - mixins <br />
 - events <br />
