@@ -21,13 +21,13 @@ import net.minecraft.client.Minecraft;
  * Written by @SrgantMooMoo on 11/30/20 with inspiration taken from @SebSb.
  */
 
-public class SaveLoad {
+public class SaveLoadConfig {
 
     private File dir;
     private File dataFile;
 
-    public SaveLoad() {
-        dir = new File(Minecraft.getMinecraft().mcDataDir, "postman");
+    public SaveLoadConfig() {
+        dir = new File(Minecraft.getMinecraft().mcDataDir, Main.name);
         if(!dir.exists()) {
             dir.mkdir();
         }

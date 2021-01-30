@@ -1,5 +1,6 @@
 package me.srgantmoomoo.moobase.impl.setting.settings;
 
+import me.srgantmoomoo.moobase.impl.Main;
 import me.srgantmoomoo.moobase.impl.module.Module;
 import me.srgantmoomoo.moobase.impl.setting.Setting;
 
@@ -27,10 +28,10 @@ public class NumberSetting extends Setting {
 	    double precision = 1.0D / this.increment;
 	    //this.value = value;
 	    this.value = Math.round(Math.max(this.minimun, Math.min(this.maximum, value)) * precision) / precision;
-	    
-	    if(Main.saveLoad != null) {
-			Main.saveLoad.save();
-	    }
+
+		if(Main.saveLoadConfig != null) {
+			Main.saveLoadConfig.save();
+		}
 	}
 	
 	public void increment(boolean positive) {

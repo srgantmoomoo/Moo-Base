@@ -1,5 +1,6 @@
 package me.srgantmoomoo.moobase.impl;
 
+import me.srgantmoomoo.moobase.api.config.SaveLoadConfig;
 import me.zero.alpine.EventBus;
 import me.zero.alpine.EventManager;
 import org.apache.logging.log4j.LogManager;
@@ -31,6 +32,7 @@ public class Main {
 	
 	public static ModuleManager moduleManager;
 	public static SettingManager settingManager;
+	public static SaveLoadConfig saveLoadConfig;
 	
 	@Instance 
 	public static Main instance;
@@ -60,6 +62,9 @@ public class Main {
 		
 		moduleManager = new ModuleManager();
 		log.info("Module Manager Initialized!");
+
+		saveLoadConfig = new SaveLoadConfig();
+		log.info("Config Initialized!");
 		
 		log.info("Moo Base Finished Initialization");
 		

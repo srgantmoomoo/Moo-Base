@@ -22,7 +22,7 @@ public class Module {
 	public KeybindSetting keyCode = new KeybindSetting(0);
 	public boolean toggled;
 	public int index;
-	public List<Setting> setting = new ArrayList<Setting>();
+	public List<Setting> settings = new ArrayList<Setting>();
 	
 	public Module(String name, String description, int key, Category category) {
 		super();
@@ -38,8 +38,8 @@ public class Module {
 	protected void disable() {}
 	
 	public void addSetting(Setting... settings) {
-		this.setting.addAll(Arrays.asList(settings));
-		this.setting.sort(Comparator.comparingInt(s->s==keyCode?1:0));
+		this.settings.addAll(Arrays.asList(settings));
+		this.settings.sort(Comparator.comparingInt(s->s==keyCode?1:0));
 	}
 	
 	public String getName() {
@@ -60,13 +60,13 @@ public class Module {
 	
 	protected void onEnable() {
 		MinecraftForge.EVENT_BUS.register(this);
-		//Main.EVENT_BUS.subscribe(this);
+		Main.EVENT_BUS.subscribe(this);
 		enable();
 	}
 
 	protected void onDisable() {
 		MinecraftForge.EVENT_BUS.register(this);
-		//Main.EVENT_BUS.subscribe(this);
+		Main.EVENT_BUS.subscribe(this);
 		disable();
 	}
 	
@@ -82,9 +82,9 @@ public class Module {
 			this.onDisable();
 		}
 		
-		//if(Main.saveLoad != null) {
-			//Main.saveLoad.save;
-		//}
+		if(Main.saveLoadConfig != null) {
+			Main.saveLoadConfig.save();
+		}
 	}
 	
 	public void toggle() {
@@ -95,20 +95,20 @@ public class Module {
 		}else {
 			this.onDisable();
 		}
-		//if(Main.saveLoad != null) {
-			//Main.saveLoad.save();
-		//}
+		if(Main.saveLoadConfig != null) {
+			Main.saveLoadConfig.save();
+		}
 	}
 	
-	public int getkey() {
+	public int getKey() {
 		return keyCode.code;
 	}
 	
 	public void setKey(int key) {
 		this.keyCode.code = key;
 		
-		//if(Main.saveLoad != null) {
-			//Main.saveLoad.save
-		//}
+		if(Main.saveLoadConfig != null) {
+			Main.saveLoadConfig.save();
+		}
 	}
 }

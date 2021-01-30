@@ -19,17 +19,17 @@ public class BooleanSetting extends Setting {
 	
 	public void setEnabled(boolean enabled) {
 		this.enabled = enabled;
-		
-		if(Main.saveLoad != null) {
-			Main.saveLoad.save();
+
+		if(Main.saveLoadConfig != null) {
+			Main.saveLoadConfig.save();
 		}
 	}
 	
 	public void toggled() {
 		this.enabled = !this.enabled;
-		
-		if(Main.saveLoad != null) {
-			Main.saveLoad.save();
+
+		if(Main.saveLoadConfig != null) {
+			Main.saveLoadConfig.save();
 		}
 	}
 
