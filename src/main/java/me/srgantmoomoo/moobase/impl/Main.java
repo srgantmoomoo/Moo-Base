@@ -3,10 +3,14 @@ package me.srgantmoomoo.moobase.impl;
 import me.srgantmoomoo.moobase.api.config.SaveLoadConfig;
 import me.zero.alpine.EventBus;
 import me.zero.alpine.EventManager;
+
+import java.awt.Font;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import me.srgantmoomoo.moobase.api.proxy.CommonProxy;
+import me.srgantmoomoo.moobase.api.utils.font.CustomFontRenderer;
 import me.srgantmoomoo.moobase.impl.module.ModuleManager;
 import me.srgantmoomoo.moobase.impl.setting.SettingManager;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,6 +37,7 @@ public class Main {
 	public static ModuleManager moduleManager;
 	public static SettingManager settingManager;
 	public static SaveLoadConfig saveLoadConfig;
+	public CustomFontRenderer customFontRenderer;
 	
 	@Instance 
 	public static Main instance;
@@ -55,11 +60,20 @@ public class Main {
 	
 	@EventHandler
 	public void Init (FMLInitializationEvent event) {
+		eventProcessor = new EventProcessor();
+		eventProcessor.init();
+		log.info("Moo Base Event System Initialized!");
+		
 		MinecraftForge.EVENT_BUS.register(this);
+		log.info("Forge Event System Initialized!");
+		
+		customFontRenderer = new CustomFontRenderer(new Font("Verdana", Font.PLAIN, 18), true,true);
+		log.info("Custom Font Initialized!");
 		
 		settingManager = new SettingManager();
 		log.info("Setting Manager Initialized!");
 		
+		MinecraftForge.EVENT_BUS.register(new ModuleManager()); // this is necessary for key input to work.
 		moduleManager = new ModuleManager();
 		log.info("Module Manager Initialized!");
 
