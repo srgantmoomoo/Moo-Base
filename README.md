@@ -7,9 +7,9 @@ The purpose of this project is for me to learn more about coding in a minecraft/
 ✔ module system <br />
 ✔ settings system <br />
 - command system <br />
-- mixins <br />
+✔ mixins <br />
 - events <br />
-- config <br />
+✔ config <br />
 - basic ui modules <br />
 - click gui <br />
 # Information
