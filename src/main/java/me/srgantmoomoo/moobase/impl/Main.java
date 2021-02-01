@@ -60,9 +60,15 @@ public class Main {
 	
 	@EventHandler
 	public void Init (FMLInitializationEvent event) {
+<<<<<<< HEAD
 		//eventProcessor = new EventProcessor();
 		//eventProcessor.init();
 		//log.info("Moo Base Event System Initialized!");
+=======
+		eventProcessor = new EventProcessor();
+		eventProcessor.init();
+		log.info("Moo Base Event System Initialized!");
+>>>>>>> 1a654f13a40060476cc863e939918f10aa5112b8
 		
 		MinecraftForge.EVENT_BUS.register(this);
 		log.info("Forge Event System Initialized!");
