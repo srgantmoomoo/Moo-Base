@@ -5,7 +5,15 @@ import java.util.stream.Collectors;
 
 import org.lwjgl.input.Keyboard;
 
+<<<<<<< HEAD
 import me.srgantmoomoo.moobase.api.utils.RenderUtil;
+=======
+<<<<<<< HEAD
+import me.srgantmoomoo.moobase.api.utils.RenderUtil;
+import me.srgantmoomoo.moobase.impl.Main;
+=======
+>>>>>>> 1a654f13a40060476cc863e939918f10aa5112b8
+>>>>>>> b012fe16277218f245557080ac1af46d9ef1da3c
 import me.srgantmoomoo.moobase.impl.module.modules.movement.*;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.RenderWorldLastEvent;
@@ -39,22 +47,55 @@ public class ModuleManager {
 	
 	public static void onRender() {
 		modules.stream().filter(Module::isToggled).forEach(Module::onRender);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+		Main.getInstance().clickGui.render();
+>>>>>>> 1a654f13a40060476cc863e939918f10aa5112b8
+>>>>>>> b012fe16277218f245557080ac1af46d9ef1da3c
 	}
 	
 	public static void onWorldRender(RenderWorldLastEvent event) {
 		Minecraft.getMinecraft().mcProfiler.startSection("postman");
 		Minecraft.getMinecraft().mcProfiler.startSection("setup");
+<<<<<<< HEAD
 		RenderUtil.prepare();
+=======
+<<<<<<< HEAD
+		RenderUtil.prepare();
+		//RenderEvent e = new RenderEvent(event.getPartialTicks());
+=======
+		JTessellator.prepare();
+		RenderEvent e = new RenderEvent(event.getPartialTicks());
+>>>>>>> 1a654f13a40060476cc863e939918f10aa5112b8
+>>>>>>> b012fe16277218f245557080ac1af46d9ef1da3c
 		Minecraft.getMinecraft().mcProfiler.endSection();
 
 		modules.stream().filter(module -> module.isToggled()).forEach(module -> {
 			Minecraft.getMinecraft().mcProfiler.startSection(module.getName());
+<<<<<<< HEAD
 			//module.onWorldRender(e);
+=======
+<<<<<<< HEAD
+			//module.onWorldRender(e);
+=======
+			module.onWorldRender(e);
+>>>>>>> 1a654f13a40060476cc863e939918f10aa5112b8
+>>>>>>> b012fe16277218f245557080ac1af46d9ef1da3c
 			Minecraft.getMinecraft().mcProfiler.endSection();
 		});
 
 		Minecraft.getMinecraft().mcProfiler.startSection("release");
+<<<<<<< HEAD
 		RenderUtil.release();
+=======
+<<<<<<< HEAD
+		RenderUtil.release();
+=======
+		JTessellator.release();
+>>>>>>> 1a654f13a40060476cc863e939918f10aa5112b8
+>>>>>>> b012fe16277218f245557080ac1af46d9ef1da3c
 		Minecraft.getMinecraft().mcProfiler.endSection();
 		Minecraft.getMinecraft().mcProfiler.endSection();
 	}
