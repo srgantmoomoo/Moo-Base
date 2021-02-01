@@ -1,6 +1,7 @@
 package me.srgantmoomoo.moobase.impl.module;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
@@ -9,7 +10,6 @@ import me.srgantmoomoo.moobase.impl.setting.Setting;
 import me.srgantmoomoo.moobase.impl.setting.settings.KeybindSetting;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.MinecraftForge;
-import scala.actors.threadpool.Arrays;
 
 public class Module {
 	
@@ -34,6 +34,8 @@ public class Module {
 		this.toggled = false;
 	}
 	
+	protected void onUpdate() {}
+	protected void onRender() {}
 	protected void enable() {}
 	protected void disable() {}
 	

@@ -31,7 +31,7 @@ public class Main {
 	public static final String clientProxyClass = "me.srgantmoomoo.moobase.api.proxy.ClientProxy";
 	public static final String commonProxyClass = "me.srgantmoomoo.moobase.api.proxy.CommonProxy";
 
-	public static final Logger log = LogManager.getLogger("Moo Base");
+	public static final Logger log = LogManager.getLogger("moobase");
 	public static final EventBus EVENT_BUS = new EventManager();
 	
 	public static ModuleManager moduleManager;
@@ -60,9 +60,9 @@ public class Main {
 	
 	@EventHandler
 	public void Init (FMLInitializationEvent event) {
-		eventProcessor = new EventProcessor();
-		eventProcessor.init();
-		log.info("Moo Base Event System Initialized!");
+		//eventProcessor = new EventProcessor();
+		//eventProcessor.init();
+		//log.info("Moo Base Event System Initialized!");
 		
 		MinecraftForge.EVENT_BUS.register(this);
 		log.info("Forge Event System Initialized!");

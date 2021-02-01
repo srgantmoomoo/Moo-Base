@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 import org.lwjgl.input.Keyboard;
 
+import me.srgantmoomoo.moobase.api.utils.RenderUtil;
 import me.srgantmoomoo.moobase.impl.module.modules.movement.*;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.RenderWorldLastEvent;
@@ -38,24 +39,22 @@ public class ModuleManager {
 	
 	public static void onRender() {
 		modules.stream().filter(Module::isToggled).forEach(Module::onRender);
-		Main.getInstance().clickGui.render();
 	}
 	
 	public static void onWorldRender(RenderWorldLastEvent event) {
 		Minecraft.getMinecraft().mcProfiler.startSection("postman");
 		Minecraft.getMinecraft().mcProfiler.startSection("setup");
-		JTessellator.prepare();
-		RenderEvent e = new RenderEvent(event.getPartialTicks());
+		RenderUtil.prepare();
 		Minecraft.getMinecraft().mcProfiler.endSection();
 
 		modules.stream().filter(module -> module.isToggled()).forEach(module -> {
 			Minecraft.getMinecraft().mcProfiler.startSection(module.getName());
-			module.onWorldRender(e);
+			//module.onWorldRender(e);
 			Minecraft.getMinecraft().mcProfiler.endSection();
 		});
 
 		Minecraft.getMinecraft().mcProfiler.startSection("release");
-		JTessellator.release();
+		RenderUtil.release();
 		Minecraft.getMinecraft().mcProfiler.endSection();
 		Minecraft.getMinecraft().mcProfiler.endSection();
 	}
