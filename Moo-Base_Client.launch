@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Moo-Base"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="GradleStart"/>
+<stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="Moo-Base"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Moo-Base"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dfml.coreMods.load=me.srgantmoomoo.moobase.api.mixin.MixinLoader -DFORGE_FORCE_FRAME_RECALC=true"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\24sag\Desktop\moobase-eclipse\Moo-Base\run"/>
+</launchConfiguration>

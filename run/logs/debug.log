@@ -1,0 +1,853 @@
+[21:21:27] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugininecraftFormatting
+[21:21:27] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[21:21:27] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformersinecraftFormatting
+[21:21:27] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugininecraftFormatting
+[21:21:27] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugininecraftFormatting
+[21:21:27] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[21:21:27] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugininecraftFormatting
+[21:21:27] [main/DEBUG] [FML]: All fundamental core mods are successfully locatedinecraftFormatting
+[21:21:27] [main/INFO] [FML]: Found a command line coremod : me.srgantmoomoo.moobase.api.mixin.MixinLoaderinecraftFormatting
+[21:21:27] [main/DEBUG] [FML]: Instantiating coremod class MixinLoaderinecraftFormatting
+[21:21:27] [main/WARN] [FML]: The coremod me.srgantmoomoo.moobase.api.mixin.MixinLoader does not have a MCVersion annotation, it may cause issues with this version of MinecraftinecraftFormatting
+[21:21:27] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinLoader (me.srgantmoomoo.moobase.api.mixin.MixinLoader), as this is probably a dev workspaceinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in net.minecraft.launchwrapper.LaunchClassLoader@47af7f3dinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@1b28cdfainecraftFormatting
+[21:21:28] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.4 Source=file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENTinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #1inecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Initialising Mixin Platform ManagerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Mixin platform: primary container is file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jarinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Adding mixin platform agents for container file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jarinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: FML platform agent will ignore coremod me.srgantmoomoo.moobase.api.mixin.MixinLoader specified on the command lineinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFML for file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jarinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jarinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/Desktop/moobase-eclipse/Moo-Base/bin/main/ for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Moo-Base/bin/default for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.github.ZeroMemes/Alpine/1.5/f52594ee1f7178fa77789d62d96c2d9017a50009/Alpine-1.5.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.5.0/f61380c805c48c98305157e2543ca0bfc91583fe/typetools-0.5.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/club.minnced/java-discord-rpc/2.0.1/ead41bb260edbf8dd93fad38f0a85b52d6da844c/java-discord-rpc-2.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/club.minnced/discord-rpc-release/v3.3.0/df54530ca097f94abc9a28d3b5153d8828a3f5b5/discord-rpc-release-v3.3.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/Desktop/moobase-eclipse/Moo-Base/.gradle/minecraft/forgeBin-1.12.2-14.23.5.2768-PROJECT(Moo-Base).jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/9834cdf236c22e84b946bba989e2f94ef5897c3c/authlib-1.5.25.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.1/aef610b34a1be37fa851825f12372b78424d8903/patchy-1.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.10.3/48fd510879dff266c3815947de66e3d4809f8668/text2speech-1.10.3.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a/jopt-simple-5.0.3.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.9.Final/97860965d6a0a6b98e7f569f3f966727b8db75/netty-all-4.1.9.Final.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.22/bd0dccebdf3744c75f1ca20063f16e8f7d5e663f/realms-1.10.22.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.4-nightly-20150209/d51a7c040a721d13efdfbd34f8b257b2df882ad0/lwjgl_util-2.9.4-nightly-20150209.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.1.0/9835253257524c1be7ab50c057aa2d418fb72082/fastutil-7.1.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/4ac28ff2f1ddf05dae3043a190451e8c46b73c31/log4j-core-2.8.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/e801d13612e22cad62a3f4f3fe7fdbe6334a8e72/log4j-api-2.8.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.jline/jline/3.5.1/51800e9d7a13608894a5a28eed0f5c7fa2f300fb/jline-3.5.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.2/3354e11e2b34215f06dab629ab88e06aca477c19/asm-debug-all-5.2.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.1.0/60eecb6f15abdb1c653ad80abaac6fe188b3feaa/plexus-utils-3.1.0.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/931074f46c795d2f7b30ed6395df5715cfd7675b/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/bcab850f8f487c3f4c4dbabde778bb82bd1a40ed/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/start/ for mixin tweakerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar]inecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar]inecraftFormatting
+[21:21:28] [main/INFO] [mixin]: Compatibility level set to JAVA_8inecraftFormatting
+[21:21:28] [main/ERROR] [mixin]: Mixin config mixins.moobase.json does not specify "minVersion" propertyinecraftFormatting
+[21:21:28] [main/DEBUG] [FML]: Enqueued coremod MixinLoaderinecraftFormatting
+[21:21:28] [main/DEBUG] [FML]: Discovering coremodsinecraftFormatting
+[21:21:28] [main/INFO] [FML]: Searching C:\Users\24sag\Desktop\moobase-eclipse\Moo-Base\run\.\mods for modsinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweakerinecraftFormatting
+[21:21:28] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugininecraftFormatting
+[21:21:28] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugininecraftFormatting
+[21:21:28] [main/INFO] [GradleStart]: Injecting location in coremod me.srgantmoomoo.moobase.api.mixin.MixinLoaderinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[21:21:28] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformersinecraftFormatting
+[21:21:28] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformerinecraftFormatting
+[21:21:28] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[PREINIT]inecraftFormatting
+[21:21:28] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformerinecraftFormatting
+[21:21:28] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformerinecraftFormatting
+[21:21:28] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformerinecraftFormatting
+[21:21:28] [main/DEBUG] [FML]: Injection completeinecraftFormatting
+[21:21:28] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}inecraftFormatting
+[21:21:28] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugininecraftFormatting
+[21:21:28] [main/DEBUG] [FML]: Loading deobfuscation resource C:\Users\24sag\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg with 36076 recordsinecraftFormatting
+[21:21:31] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thinginecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfullyinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformersinecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Injection completeinecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}inecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugininecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfullyinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Injecting coremod MixinLoader \{me.srgantmoomoo.moobase.api.mixin.MixinLoader\} class transformersinecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Injection completeinecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Running coremod plugin for MixinLoader \{me.srgantmoomoo.moobase.api.mixin.MixinLoader\}inecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Running coremod plugin MixinLoaderinecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Coremod plugin class MixinLoader run successfullyinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar]inecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFMLinecraftFormatting
+[21:21:31] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@6c8909c3inecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar]inecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/Desktop/moobase-eclipse/Moo-Base/bin/main/ for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Moo-Base/bin/default for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.github.ZeroMemes/Alpine/1.5/f52594ee1f7178fa77789d62d96c2d9017a50009/Alpine-1.5.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.5.0/f61380c805c48c98305157e2543ca0bfc91583fe/typetools-0.5.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/club.minnced/java-discord-rpc/2.0.1/ead41bb260edbf8dd93fad38f0a85b52d6da844c/java-discord-rpc-2.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/club.minnced/discord-rpc-release/v3.3.0/df54530ca097f94abc9a28d3b5153d8828a3f5b5/discord-rpc-release-v3.3.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/Desktop/moobase-eclipse/Moo-Base/.gradle/minecraft/forgeBin-1.12.2-14.23.5.2768-PROJECT(Moo-Base).jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/9834cdf236c22e84b946bba989e2f94ef5897c3c/authlib-1.5.25.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.1/aef610b34a1be37fa851825f12372b78424d8903/patchy-1.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.10.3/48fd510879dff266c3815947de66e3d4809f8668/text2speech-1.10.3.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a/jopt-simple-5.0.3.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.9.Final/97860965d6a0a6b98e7f569f3f966727b8db75/netty-all-4.1.9.Final.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.22/bd0dccebdf3744c75f1ca20063f16e8f7d5e663f/realms-1.10.22.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.4-nightly-20150209/d51a7c040a721d13efdfbd34f8b257b2df882ad0/lwjgl_util-2.9.4-nightly-20150209.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.1.0/9835253257524c1be7ab50c057aa2d418fb72082/fastutil-7.1.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/4ac28ff2f1ddf05dae3043a190451e8c46b73c31/log4j-core-2.8.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/e801d13612e22cad62a3f4f3fe7fdbe6334a8e72/log4j-api-2.8.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.jline/jline/3.5.1/51800e9d7a13608894a5a28eed0f5c7fa2f300fb/jline-3.5.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.2/3354e11e2b34215f06dab629ab88e06aca477c19/asm-debug-all-5.2.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.1.0/60eecb6f15abdb1c653ad80abaac6fe188b3feaa/plexus-utils-3.1.0.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/931074f46c795d2f7b30ed6395df5715cfd7675b/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/bcab850f8f487c3f4c4dbabde778bb82bd1a40ed/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning file:/C:/Users/24sag/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/start/ for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Scanning asmgen:/ for mixin tweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: inject() running with 1 agentsinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar]inecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar]inecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Loaded 213 rules from AccessTransformer config file forge_at.cfginecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Validating minecraftinecraftFormatting
+[21:21:31] [main/DEBUG] [FML]: Minecraft validated, launching...inecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #2inecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[DEFAULT]inecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Selecting config mixins.moobase.jsoninecraftFormatting
+[21:21:31] [main/WARN] [mixin]: Reference map 'mixins.moobase.refmap.json' for mixins.moobase.json could not be read. If this is a development environment you can ignore this messageinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Preparing mixins.moobase.json (1)inecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:inecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.ProxyinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.gradle.GradleForgeHacks$AccessTransformerTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformerinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.ProxyinecraftFormatting
+[21:21:31] [main/DEBUG] [mixin]: Transformer delegation list created with 11 entriesinecraftFormatting
+[21:21:31] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiMainMenu to metadata cacheinecraftFormatting
+[21:21:32] [main/DEBUG] [mixin]: Prepared 1 mixins in 0.273 sec (273.0ms avg) (4ms load, 29ms transform, 0ms plugin)inecraftFormatting
+[21:21:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}inecraftFormatting
+[21:21:32] [main/DEBUG] [mixin]: Mixing MixinGuiMainMenu from mixins.moobase.json into net.minecraft.client.gui.GuiMainMenuinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiScreen to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/Gui to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiYesNoCallback to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/Minecraft to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/lang/StringBuilder to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/lang/AbstractStringBuilder to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/lang/Appendable to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/lang/CharSequence to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/io/Serializable to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/TextFormatting to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/FontRenderer to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/io/IOException to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/util/ArrayList to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/lang/Exception to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/lang/Throwable to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/util/AbstractList to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for java/util/AbstractCollection to metadata cacheinecraftFormatting
+[21:21:32] [main/TRACE] [mixin]: Added class metadata for net/minecraft/realms/RealmsBridge to metadata cacheinecraftFormatting
+[21:21:32] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player105inecraftFormatting
+[21:21:36] [main/DEBUG] [FML]: Creating vanilla freeze snapshotinecraftFormatting
+[21:21:36] [main/DEBUG] [FML]: Vanilla freeze snapshot createdinecraftFormatting
+[21:21:36] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[21:21:36] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4inecraftFormatting
+[21:21:38] [main/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.002sinecraftFormatting
+[21:21:38] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 501159648 bytes (477 MB) / 634912768 bytes (605 MB) up to 3803185152 bytes (3627 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+MixinLoader (unknown)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 460.79' Renderer: 'GeForce GTX 1660 Ti/PCIe/SSE2'inecraftFormatting
+[21:21:38] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 InitializedinecraftFormatting
+[21:21:38] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.inecraftFormatting
+[21:21:38] [main/INFO] [FML]: Replaced 1036 ore ingredientsinecraftFormatting
+[21:21:38] [main/DEBUG] [FML]: File C:\Users\24sag\Desktop\moobase-eclipse\Moo-Base\run\config\injectedDependencies.json not found. No dependencies injectedinecraftFormatting
+[21:21:38] [main/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]inecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related directory at C:\Users\24sag\Desktop\moobase-eclipse\Moo-Base\bin\main, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.7.4-SNAPSHOT\d22c5b223b3ff950cd165446dbc88afb162a8b6e\mixin-0.7.4-SNAPSHOT.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.github.ZeroMemes\Alpine\1.5\f52594ee1f7178fa77789d62d96c2d9017a50009\Alpine-1.5.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.5.0\f61380c805c48c98305157e2543ca0bfc91583fe\typetools-0.5.0.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.googlecode.json-simple\json-simple\1.1.1\c9ad4a0850ab676c5c64461a05ca524cdfff59f1\json-simple-1.1.1.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\club.minnced\java-discord-rpc\2.0.1\ead41bb260edbf8dd93fad38f0a85b52d6da844c\java-discord-rpc-2.0.1.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\junit\junit\4.10\e4f1766ce7404a08f45d859fb9c226fc9e41a861\junit-4.10.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jarinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\club.minnced\discord-rpc-release\v3.3.0\df54530ca097f94abc9a28d3b5153d8828a3f5b5\discord-rpc-release-v3.3.0.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.1\860340562250678d1a344907ac75754e259cdb14\hamcrest-core-1.1.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\Desktop\moobase-eclipse\Moo-Base\.gradle\minecraft\forgeBin-1.12.2-14.23.5.2768-PROJECT(Moo-Base).jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jarinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jarinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jarinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.22\bd0dccebdf3744c75f1ca20063f16e8f7d5e663f\realms-1.10.22.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.jline\jline\3.5.1\51800e9d7a13608894a5a28eed0f5c7fa2f300fb\jline-3.5.1.jarinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jarinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.1.0\60eecb6f15abdb1c653ad80abaac6fe188b3feaa\plexus-utils-3.1.0.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\931074f46c795d2f7b30ed6395df5715cfd7675b\lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jarinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Skipping known library file C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\bcab850f8f487c3f4c4dbabde778bb82bd1a40ed\lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jarinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\minecraft\deobfedDeps\compileDummy.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related file at C:\Users\24sag\.gradle\caches\minecraft\deobfedDeps\providedDummy.jar, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found a minecraft related directory at C:\Users\24sag\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.5.2768\start, examining for mod candidatesinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Minecraft jar mods loaded successfullyinecraftFormatting
+[21:21:39] [main/INFO] [FML]: Searching C:\Users\24sag\Desktop\moobase-eclipse\Moo-Base\run\.\mods for modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining directory main for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Found an mcmod.info file in directory maininecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package meinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomooinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobaseinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/apiinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/api/configinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/api/EventinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/api/mixininecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/api/mixin/mixinsinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/api/proxyinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/api/utilsinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/api/utils/fontinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/implinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (me.srgantmoomoo.moobase.impl.Main) - loadinginecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Parsed dependency info for moobase: Requirements: [] After:[] Before:[]inecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/impl/moduleinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/impl/module/modulesinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/impl/module/modules/movementinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/impl/module/modules/playerinecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/impl/settinginecraftFormatting
+[21:21:39] [main/TRACE] [FML]: Recursing into package me/srgantmoomoo/moobase/impl/setting/settingsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining file mixin-0.7.4-SNAPSHOT.jar for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: The mod container mixin-0.7.4-SNAPSHOT.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining file Alpine-1.5.jar for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: The mod container Alpine-1.5.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining file typetools-0.5.0.jar for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: The mod container typetools-0.5.0.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining file json-simple-1.1.1.jar for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: The mod container json-simple-1.1.1.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining file java-discord-rpc-2.0.1.jar for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: The mod container java-discord-rpc-2.0.1.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining file junit-4.10.jar for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: The mod container junit-4.10.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining file discord-rpc-release-v3.3.0.jar for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: The mod container discord-rpc-release-v3.3.0.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining file hamcrest-core-1.1.jar for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: The mod container hamcrest-core-1.1.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: Examining file forgeBin-1.12.2-14.23.5.2768-PROJECT(Moo-Base).jar for potential modsinecraftFormatting
+[21:21:39] [main/DEBUG] [FML]: The mod container forgeBin-1.12.2-14.23.5.2768-PROJECT(Moo-Base).jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 993839100 nanosinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining file jsr305-3.0.1.jar for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining file patchy-1.1.jar for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: The mod container patchy-1.1.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining file text2speech-1.10.3.jar for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining file java-objc-bridge-1.0.0.jar for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: The mod container java-objc-bridge-1.0.0.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining file asm-debug-all-5.2.jar for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining file plexus-utils-3.1.0.jar for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: The mod container plexus-utils-3.1.0.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining file compileDummy.jar for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: The mod container compileDummy.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining file providedDummy.jar for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: The mod container providedDummy.jar appears to be missing an mcmod.info fileinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: Examining directory start for potential modsinecraftFormatting
+[21:21:40] [main/DEBUG] [FML]: No mcmod.info file found in directory startinecraftFormatting
+[21:21:40] [main/TRACE] [FML]: Recursing into package netinecraftFormatting
+[21:21:40] [main/TRACE] [FML]: Recursing into package net/minecraftforgeinecraftFormatting
+[21:21:40] [main/TRACE] [FML]: Recursing into package net/minecraftforge/gradleinecraftFormatting
+[21:21:40] [main/TRACE] [FML]: Recursing into package net/minecraftforge/gradle/tweakersinecraftFormatting
+[21:21:41] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to loadinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Received a system property request ''inecraftFormatting
+[21:21:41] [main/TRACE] [FML]: System property request managing the state of 0 modsinecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: After merging, found state information for 0 modsinecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Enabling mod moobaseinecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Mod Moo Base is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Verifying mod requirements are satisfiedinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: All mod requirements are satisfiedinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Sorting mods into an ordered listinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Mod sorting completed successfullyinecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Mod sorting datainecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: 	moobase(Moo Base:0.1): main ()inecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Loading @Config anotation datainecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraftinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraftinecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.021sinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcpinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcpinecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001sinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Sending event FMLConstructionEvent to mod FMLinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModListsinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connectioninecraftFormatting
+[21:21:41] [main/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)inecraftFormatting
+[21:21:41] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, moobase] at CLIENTinecraftFormatting
+[21:21:41] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, moobase] at SERVERinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Sent event FMLConstructionEvent to mod FMLinecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.662sinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Sending event FMLConstructionEvent to mod forgeinecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: Loading Vanilla annotations: nullinecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: Preloading CrashReport ClassesinecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$6inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$7inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/entity/Entity$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/entity/Entity$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/entity/Entity$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/entity/Entity$5inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/World$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/World$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/World$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/World$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/World$5inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTableinecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$AlignmentinecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$ColumninecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$RowinecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1inecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallableinecraftFormatting
+[21:21:41] [main/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1inecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Mod forge is using network checker : No network checking performedinecraftFormatting
+[21:21:41] [main/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connectioninecraftFormatting
+[21:21:41] [main/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2768)inecraftFormatting
+[21:21:41] [main/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCEinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sent event FMLConstructionEvent to mod forgeinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.146sinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sending event FMLConstructionEvent to mod moobaseinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Mod moobase is using network checker : Accepting version 0.1inecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Testing mod moobase to verify it accepts its own version in a remote connectioninecraftFormatting
+[21:21:42] [main/TRACE] [FML]: The mod moobase accepts its own version (0.1)inecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Attempting to inject @SidedProxy classes into moobaseinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for moobaseinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Attempting to inject @Config classes into moobase for type INSTANCEinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sent event FMLConstructionEvent to mod moobaseinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: Construction - Moo Base took 0.179sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Finished: Construction took 1.008sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Mod signature datainecraftFormatting
+[21:21:42] [main/DEBUG] [FML]:  	Valid Signatures:inecraftFormatting
+[21:21:42] [main/DEBUG] [FML]:  	Missing Signatures:inecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jarinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jarinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeBin-1.12.2-14.23.5.2768-PROJECT(Moo-Base).jarinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2768)	forgeBin-1.12.2-14.23.5.2768-PROJECT(Moo-Base).jarinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: 		moobase	(Moo Base	0.1)	maininecraftFormatting
+[21:21:42] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Moo BaseinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: Loading Resources - Default took 0.011sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.025sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.022sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Moo Base took 0.001sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Finished: Reloading - LanguageManager took 0.162sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: Loading Resources - Reloading listeners took 0.163sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Finished: Loading Resources took 0.221sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Mod Moo Base is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Processing ObjectHolder annotationsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Found 1168 ObjectHolder annotationsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Identifying ItemStackHolder annotationsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Found 0 ItemStackHolder annotationsinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraftinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraftinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.000sinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcpinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcpinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000sinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FMLinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FMLinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.000sinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forgeinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Configured a dormant chunk cache size of 0inecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forgeinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.089sinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod moobaseinecraftFormatting
+[21:21:42] [main/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod moobaseinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Step: PreInitialization - Moo Base took 0.000sinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Finished: PreInitialization took 0.090sinecraftFormatting
+[21:21:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.jsoninecraftFormatting
+[21:21:42] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Injecting itemstacksinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Itemstack injection completeinecraftFormatting
+[21:21:42] [main/DEBUG] [FML]: Bar Finished: Loading Resource - TextureManager took 0.000sinecraftFormatting
+[21:21:42] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.2.6",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2854",
+    "1.12.2-recommended": "14.23.5.2854",
+    "1.13.2-latest": "25.0.219",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.23",
+    "1.14.4-recommended": "28.2.0",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.47",
+    "1.15.2-recommended": "31.2.0",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.0.13",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest-1.7.10": "10.13.2.1343"
+  }
+}inecraftFormatting
+[21:21:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854inecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading sounds took 5.683sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - SoundHandler took 5.717sinecraftFormatting
+[21:21:48] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...inecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.004sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.004sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.018sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.017sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Step: Rendering Setup - GL Setup took 0.002sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Texture Map took 0.011sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - B3DLoader took 0.000sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - OBJLoader took 0.000sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000sinecraftFormatting
+[21:21:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenALinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000sinecraftFormatting
+[21:21:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)inecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000sinecraftFormatting
+[21:21:48] [main/DEBUG] [FML]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000sinecraftFormatting
+[21:21:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.inecraftFormatting
+[21:21:48] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine startedinecraftFormatting
+[21:21:54] [main/DEBUG] [FML]: Bar Finished: ModelLoader: blocks took 5.432sinecraftFormatting
+[21:21:57] [main/DEBUG] [FML]: Bar Finished: ModelLoader: items took 3.355sinecraftFormatting
+[21:21:57] [main/INFO] [FML]: Max texture size: 16384inecraftFormatting
+[21:21:57] [main/DEBUG] [FML]: Bar Finished: Texture stitching took 0.446sinecraftFormatting
+[21:21:57] [main/DEBUG] [FML]: Bar Finished: Texture stitching took 0.023sinecraftFormatting
+[21:21:57] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlasinecraftFormatting
+[21:21:57] [main/DEBUG] [FML]: Bar Finished: Texture creation took 0.026sinecraftFormatting
+[21:21:57] [main/DEBUG] [FML]: Bar Finished: Texture mipmap and upload took 0.023sinecraftFormatting
+[21:21:58] [main/DEBUG] [FML]: Bar Finished: ModelLoader: baking took 0.535sinecraftFormatting
+[21:21:58] [main/DEBUG] [FML]: Bar Finished: Loading Resource - ModelManager took 10.068sinecraftFormatting
+[21:21:58] [main/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Model Manager took 10.187sinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Finished: Loading Resource - RenderItem took 0.017sinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Item Renderer took 0.487sinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Finished: Loading Resource - EntityRenderer took 0.000sinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000sinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Finished: Loading Resource - RenderGlobal took 0.000sinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Finished: Loading Resource - SearchTreeManager took 0.146sinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.538sinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Finished: Rendering Setup took 11.226sinecraftFormatting
+[21:21:59] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:59] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:59] [main/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraftinecraftFormatting
+[21:21:59] [main/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraftinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.001sinecraftFormatting
+[21:21:59] [main/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcpinecraftFormatting
+[21:21:59] [main/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcpinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.001sinecraftFormatting
+[21:21:59] [main/TRACE] [FML]: Sending event FMLInitializationEvent to mod FMLinecraftFormatting
+[21:21:59] [main/TRACE] [FML]: Sent event FMLInitializationEvent to mod FMLinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.000sinecraftFormatting
+[21:21:59] [main/TRACE] [FML]: Sending event FMLInitializationEvent to mod forgeinecraftFormatting
+[21:21:59] [main/TRACE] [FML]: Sent event FMLInitializationEvent to mod forgeinecraftFormatting
+[21:21:59] [main/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.000sinecraftFormatting
+[21:21:59] [main/TRACE] [FML]: Sending event FMLInitializationEvent to mod moobaseinecraftFormatting
+[21:21:59] [main/INFO] [moobase]: Forge Event System Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Custom Font Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Setting Manager Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Module Manager Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Config Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Moo Base Finished InitializationinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLInitializationEvent to mod moobaseinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: Initialization - Moo Base took 0.413sinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Finished: Initialization took 0.415sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraftinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event IMCEvent to mod minecraftinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event IMCEvent to mod minecraftinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.005sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcpinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event IMCEvent to mod mcpinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event IMCEvent to mod mcpinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FMLinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event IMCEvent to mod FMLinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event IMCEvent to mod FMLinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forgeinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event IMCEvent to mod forgeinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event IMCEvent to mod forgeinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod moobaseinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event IMCEvent to mod moobaseinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event IMCEvent to mod moobaseinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: InterModComms$IMC - Moo Base took 0.000sinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.006sinecraftFormatting
+[21:22:00] [main/INFO] [FML]: Injecting itemstacksinecraftFormatting
+[21:22:00] [main/INFO] [FML]: Itemstack injection completeinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraftinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraftinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcpinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcpinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FMLinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FMLinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forgeinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forgeinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.013sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod moobaseinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod moobaseinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: PostInitialization - Moo Base took 0.000sinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Finished: PostInitialization took 0.014sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraftinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraftinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcpinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcpinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FMLinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FMLinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forgeinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Forge RecipeSorter Baking:inecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )inecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shapedinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shapedinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shapedinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapelessinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )inecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Sorting recipesinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forgeinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.010sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod moobaseinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod moobaseinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: LoadComplete - Moo Base took 0.000sinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Finished: LoadComplete took 0.012sinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Freezing registriesinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraftinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraftinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcpinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcpinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FMLinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FMLinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forgeinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forgeinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.150sinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod moobaseinecraftFormatting
+[21:22:00] [main/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod moobaseinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Step: ModIdMapping - Moo Base took 0.000sinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.152sinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: All registries frozeninecraftFormatting
+[21:22:00] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 modsinecraftFormatting
+[21:22:00] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Finished: Loading took 21.575sinecraftFormatting
+[21:22:00] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loadedinecraftFormatting
+[21:22:00] [main/DEBUG] [FML]: Bar Finished: Loading Resource - CloudRenderer took 0.009sinecraftFormatting
+[21:22:01] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session idinecraftFormatting
+[21:22:18] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!inecraftFormatting
+[21:22:18] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...inecraftFormatting
+[21:22:18] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.cominecraftFormatting

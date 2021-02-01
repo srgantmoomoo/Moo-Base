@@ -1,0 +1,9 @@
+{
+"required": true,
+"compatibilityLevel": "JAVA_8"
+"package": "me.srgantmoomoo.moobase.api.mixin.mixins"
+"refmap": "mixins.moobase.refmap.json"
+"mixins": [
+	"MixinGuiMainMenu"
+]
+}

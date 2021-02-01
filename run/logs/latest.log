@@ -1,0 +1,111 @@
+[21:21:27] [main/INFO]: Extra: []
+[21:21:27] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/24sag/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:21:27] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:21:27] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:21:27] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:21:27] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:21:27] [main/INFO]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[21:21:27] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_281
+[21:21:27] [main/ERROR]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[21:21:27] [main/ERROR]: Full: C:\Users\24sag\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[21:21:27] [main/ERROR]: Trimmed: c:/users/24sag/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[21:21:27] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[21:21:27] [main/INFO]: Detected deobfuscated environment, loading log configs for colored console logs.
+[21:21:27] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[21:21:27] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[21:21:27] [main/INFO] [FML]: Found a command line coremod : me.srgantmoomoo.moobase.api.mixin.MixinLoaderinecraftFormatting
+[21:21:27] [main/WARN] [FML]: The coremod me.srgantmoomoo.moobase.api.mixin.MixinLoader does not have a MCVersion annotation, it may cause issues with this version of MinecraftinecraftFormatting
+[21:21:27] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinLoader (me.srgantmoomoo.moobase.api.mixin.MixinLoader), as this is probably a dev workspaceinecraftFormatting
+[21:21:28] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.4 Source=file:/C:/Users/24sag/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENTinecraftFormatting
+[21:21:28] [main/INFO] [mixin]: Compatibility level set to JAVA_8inecraftFormatting
+[21:21:28] [main/ERROR] [mixin]: Mixin config mixins.moobase.json does not specify "minVersion" propertyinecraftFormatting
+[21:21:28] [main/INFO] [FML]: Searching C:\Users\24sag\Desktop\moobase-eclipse\Moo-Base\run\.\mods for modsinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweakerinecraftFormatting
+[21:21:28] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugininecraftFormatting
+[21:21:28] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugininecraftFormatting
+[21:21:28] [main/INFO] [GradleStart]: Injecting location in coremod me.srgantmoomoo.moobase.api.mixin.MixinLoaderinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[21:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[21:21:31] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thinginecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweakerinecraftFormatting
+[21:21:31] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@6c8909c3inecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[21:21:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[21:21:31] [main/WARN] [mixin]: Reference map 'mixins.moobase.refmap.json' for mixins.moobase.json could not be read. If this is a development environment you can ignore this messageinecraftFormatting
+[21:21:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}inecraftFormatting
+[21:21:32] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player105inecraftFormatting
+[21:21:36] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[21:21:36] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4inecraftFormatting
+[21:21:38] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 501159648 bytes (477 MB) / 634912768 bytes (605 MB) up to 3803185152 bytes (3627 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+MixinLoader (unknown)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 460.79' Renderer: 'GeForce GTX 1660 Ti/PCIe/SSE2'inecraftFormatting
+[21:21:38] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 InitializedinecraftFormatting
+[21:21:38] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.inecraftFormatting
+[21:21:38] [main/INFO] [FML]: Replaced 1036 ore ingredientsinecraftFormatting
+[21:21:39] [main/INFO] [FML]: Searching C:\Users\24sag\Desktop\moobase-eclipse\Moo-Base\run\.\mods for modsinecraftFormatting
+[21:21:40] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 993839100 nanosinecraftFormatting
+[21:21:41] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to loadinecraftFormatting
+[21:21:41] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, moobase] at CLIENTinecraftFormatting
+[21:21:41] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, moobase] at SERVERinecraftFormatting
+[21:21:42] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Moo BaseinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Processing ObjectHolder annotationsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Found 1168 ObjectHolder annotationsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Identifying ItemStackHolder annotationsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Found 0 ItemStackHolder annotationsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Configured a dormant chunk cache size of 0inecraftFormatting
+[21:21:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.jsoninecraftFormatting
+[21:21:42] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Injecting itemstacksinecraftFormatting
+[21:21:42] [main/INFO] [FML]: Itemstack injection completeinecraftFormatting
+[21:21:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854inecraftFormatting
+[21:21:48] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...inecraftFormatting
+[21:21:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenALinecraftFormatting
+[21:21:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)inecraftFormatting
+[21:21:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.inecraftFormatting
+[21:21:48] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine startedinecraftFormatting
+[21:21:57] [main/INFO] [FML]: Max texture size: 16384inecraftFormatting
+[21:21:57] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlasinecraftFormatting
+[21:21:59] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[21:21:59] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[21:21:59] [main/INFO] [moobase]: Forge Event System Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Custom Font Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Setting Manager Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Module Manager Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Config Initialized!inecraftFormatting
+[21:22:00] [main/INFO] [moobase]: Moo Base Finished InitializationinecraftFormatting
+[21:22:00] [main/INFO] [FML]: Injecting itemstacksinecraftFormatting
+[21:22:00] [main/INFO] [FML]: Itemstack injection completeinecraftFormatting
+[21:22:00] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 modsinecraftFormatting
+[21:22:00] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[21:22:00] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loadedinecraftFormatting
+[21:22:01] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session idinecraftFormatting
+[21:22:18] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!inecraftFormatting
+[21:22:18] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...inecraftFormatting
+[21:22:18] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.cominecraftFormatting

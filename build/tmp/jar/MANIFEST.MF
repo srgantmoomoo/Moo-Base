@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+TweakOrder: 0
+MixinConfigs: mixins.moobase.json
+FMLCorePluginContainsFMLMod: true
+FMLAT: moobase_at.cfg
+tweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+FMLCorePlugin: me.srgantmoomoo.moobase.impl.Main
+

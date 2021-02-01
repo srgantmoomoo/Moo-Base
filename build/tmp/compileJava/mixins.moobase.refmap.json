@@ -1,0 +1,19 @@
+{
+  "mappings": {
+    "me/srgantmoomoo/moobase/api/mixin/mixins/MixinGuiMainMenu": {
+      "drawScreen": "Lnet/minecraft/client/gui/GuiMainMenu;func_73863_a(IIF)V"
+    }
+  },
+  "data": {
+    "notch": {
+      "me/srgantmoomoo/moobase/api/mixin/mixins/MixinGuiMainMenu": {
+        "drawScreen": "Lblr;a(IIF)V"
+      }
+    },
+    "searge": {
+      "me/srgantmoomoo/moobase/api/mixin/mixins/MixinGuiMainMenu": {
+        "drawScreen": "Lnet/minecraft/client/gui/GuiMainMenu;func_73863_a(IIF)V"
+      }
+    }
+  }
+}
