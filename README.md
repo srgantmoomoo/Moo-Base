@@ -6,10 +6,11 @@ The purpose of this project is for me to learn more about coding in a minecraft/
 # Road Map 
 ✔ module system <br />
 ✔ settings system <br />
-✔ mixins <br />
 ✔ config <br />
+✔ mixins <br />
+✔ events <br />
 - command system <br />
-- events <br />
+- example modules <br />
 - basic ui modules <br />
 - click gui <br />
 # Information
