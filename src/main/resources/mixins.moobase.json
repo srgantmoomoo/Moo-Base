@@ -4,6 +4,7 @@
 "package": "me.srgantmoomoo.moobase.api.mixin.mixins",
 "refmap": "mixins.moobase.refmap.json",
 "mixins": [
-	"MixinGuiMainMenu"
+	"MixinGuiMainMenu",
+	"MixinEntityPlayerSP"
 ]
 }

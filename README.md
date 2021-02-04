@@ -9,8 +9,8 @@ The purpose of this project is for me to learn more about coding in a minecraft/
 ✔ config <br />
 ✔ mixins <br />
 ✔ events <br />
+✔ example modules <br />
 - command system <br />
-- example modules <br />
 - basic ui modules <br />
 - click gui <br />
 # Information

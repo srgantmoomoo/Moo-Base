@@ -1,6 +1,7 @@
 package me.srgantmoomoo.moobase.impl;
 
 import me.srgantmoomoo.moobase.api.config.SaveLoadConfig;
+import me.srgantmoomoo.moobase.api.event.EventProcessor;
 import me.zero.alpine.EventBus;
 import me.zero.alpine.EventManager;
 
@@ -38,6 +39,7 @@ public class Main {
 	public static SettingManager settingManager;
 	public static SaveLoadConfig saveLoadConfig;
 	public CustomFontRenderer customFontRenderer;
+	public EventProcessor eventProcessor;
 	
 	@Instance 
 	public static Main instance;
@@ -60,9 +62,9 @@ public class Main {
 	
 	@EventHandler
 	public void Init (FMLInitializationEvent event) {
-		//eventProcessor = new EventProcessor();
-		//eventProcessor.init();
-		//log.info("Moo Base Event System Initialized!");
+		eventProcessor = new EventProcessor();
+		eventProcessor.init();
+		log.info("Moo Base Event System Initialized!");
 		
 		MinecraftForge.EVENT_BUS.register(this);
 		log.info("Forge Event System Initialized!");

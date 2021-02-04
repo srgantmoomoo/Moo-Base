@@ -6,7 +6,11 @@ import java.util.stream.Collectors;
 import org.lwjgl.input.Keyboard;
 
 import me.srgantmoomoo.moobase.api.utils.RenderUtil;
+import me.srgantmoomoo.moobase.impl.module.modules.combat.*;
+import me.srgantmoomoo.moobase.impl.module.modules.exploits.*;
 import me.srgantmoomoo.moobase.impl.module.modules.movement.*;
+import me.srgantmoomoo.moobase.impl.module.modules.player.*;
+import me.srgantmoomoo.moobase.impl.module.modules.render.*;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.RenderWorldLastEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -19,15 +23,19 @@ public class ModuleManager {
 		modules = new ArrayList<>();
 		
 		// Player
+		modules.add(new ExampleVelocity());
 		
 		// Render
+		modules.add(new ExampleFullbright());
 		
 		// Combat
+		modules.add(new ExampleKillAura());
 		
 		// Exploits
+		modules.add(new ExampleTimer());
 		
 		// Movement
-		modules.add(new Sprint());
+		modules.add(new ExampleSprint());
 		
 		// Client
 		
