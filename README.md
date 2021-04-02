@@ -1,3 +1,4 @@
+***this is about as simple as bases get, i was thinking about redoing it, but ill keep it here because i know it has already helped a few people learn. the goal of this base is to help people understand how these clients work a little more. i do not recommend actaully using it, i will always reccommend making your own base, but, do with this as you please.***
 # Moo Base
 This is a simple client base for clients on minecraft forge 1.12.2. <br />
 You may use this in any project of your own, it would be appreciated if you were to credit me, and please respect the liscence. <br />
